@@ -1,13 +1,17 @@
-body {
+html, body {
+    margin: 0;
+    height: 100%;
     background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
-    color: #F3F4F6;
 }
 
 .container {
     width: 500px;
     background-color: #223560;
     border-radius: 25px;
-    margin: 20rem auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 1rem;
 }
 
