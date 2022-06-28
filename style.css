@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    color: #F3F4F6;
+}
+
+.container {
+    width: 500px;
+    background-color: #223560;
+    border-radius: 25px;
+    margin: 20rem auto;
+    padding: 1rem;
+}
+
+.time {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    padding-left: 2.5rem;
+}
